@@ -2,14 +2,14 @@
 
 This project involves cleaning and analyzing a dataset of layoffs in 2022. The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/swaptr/layoffs-2022) and includes information on various companies, the number of employees laid off, industry, and other related data.
 
-## Project Overview
+## 🔥 Project Overview
 The goal of this project is two-fold:
 1. **Data Cleaning**: Remove duplicates, standardize data, handle missing values, and fix any inconsistencies.
 2. **Exploratory Data Analysis (EDA)**: Analyze the data to gain insights into layoffs across different companies and industries.
 
 ---
 
-## Files in This Repository
+## 📁 Files in This Repository
 - **`layoffs.csv`**: The original dataset containing layoffs data for 2022.
 - **`layoffs_data_cleaning.sql`**: SQL script for cleaning the dataset (handling duplicates, standardizing values, fixing nulls, etc.).
 - **`EDA.sql`**: SQL script for performing exploratory data analysis on the cleaned dataset.
@@ -17,7 +17,7 @@ The goal of this project is two-fold:
 
 ---
 
-## Data Cleaning Steps
+## 📄 Data Cleaning Steps
 - **Created a staging table** to preserve raw data and work on a separate table for cleaning.
 - **Removed duplicates** by identifying and deleting repeated rows using a combination of columns (company, industry, date, etc.).
 - **Standardized columns**: Trimmed unnecessary spaces, standardized industry names (e.g., “Crypto” for all cryptocurrency companies), and converted date formats.
@@ -25,7 +25,7 @@ The goal of this project is two-fold:
 
 ---
 
-## Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 The following analyses were performed:
 - **Layoff Percentages**: Examined the percentage of layoffs across different companies, including companies that had 100% of their workforce laid off.
 - **Company Size vs. Layoffs**: Analyzed companies’ funding (`funds_raised_millions`) and their corresponding layoffs.
